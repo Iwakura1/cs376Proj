@@ -25,7 +25,7 @@
 int main(int argc, const char * argv[])
 {
 
-  username();
+  username2();
 
   // Check the command line arguments.
   if(argc != 2) {

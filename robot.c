@@ -25,15 +25,15 @@ void robPrintMessage(int num)
 {
   int i = 0;
 
-  printf("Matthew Garand ");
 
+  printf("Matthew Garand ");
   for(i; i < num; i++)
     {
       printf("really ");
     }
-
+  
   printf("loves robots!\n");
-
+  
   return;
 }
 

@@ -19,8 +19,13 @@
  * 
  * @returns nothing.
  */
+
+#include "username.h"
 int main(int argc, const char * argv[])
 {
+
+  username();
+
   // Check the command line arguments.
   if(argc != 2) {
     printf("usage: %s <number> \n", argv[0]);

@@ -4,8 +4,8 @@
  * A file that contains the supporting functions for main() in the
  * ~/robots example source for Software Engineering.
  *
- * @author Tanya L. Crenshaw
- * @since August 2013
+ * @author Tanya L. Crenshaw & Matthew Farr
+ * @since August 2014
  *
  */
 
@@ -44,7 +44,7 @@ void robPrintMessage(int num)
 void robPrintAscii(void)
 {
   printf("    i_i    \n"
-	 "   [@_@]   \n"
+	 "   [^_^]   \n"
 	 "  /|___|\\  \n"
          "   d   b   "); 
 

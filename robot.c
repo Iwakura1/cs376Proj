@@ -26,7 +26,7 @@ void robPrintMessage(int num)
   int i = 0;
 
 
-  printf("Matthew Garand and Matthew Farr ");
+  printf("Matthew Garand and Matthew Farr");
   for(i; i < num; i++)
     {
       printf("really ");
@@ -45,7 +45,9 @@ void robPrintAscii(void)
 {
   printf("    i_i    \n"
 	 "   [^_^]   \n"
+	 "   [D_D]   \n"
 	 "  /|___|\\  \n"
          "   d   b   "); 
 
 }
+B

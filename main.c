@@ -25,12 +25,15 @@
 int main(int argc, const char * argv[])
 {
 
-  username2();
-
   // Check the command line arguments.
-  if(argc != 2) {
+  if((argc != 1) && (argc !=2)) {
     printf("usage: %s <number> \n", argv[0]);
     return -1;
+  }
+
+  if(argc == 1){
+    robPrintAscii();
+    return 0;
   }
 
   // Convert the command-line argument to a number.
@@ -41,6 +44,7 @@ int main(int argc, const char * argv[])
   robPrintMessage(num);
 
   farr16();
+  username2();
 
   return 0;
 }
